@@ -1,0 +1,71 @@
+How to use
+-----------
+Connectint to a server:
+	--> Click on the "Add Server" button
+	--> Type a username that you would like to use
+	--> Type the IP the server admin has given you (EX: 67.44.22.55 or myserver.com)
+	--> Type the port the server admin has given you. It should be between 1 and 65535
+
+Makeing a server (Windows):
+	--> Go to "Server > Make Server"
+	--> Type the port you would like to use (Ex: 6765)
+	--> Type the desired password for your server (NOTE: You must give it to the people that you want to connect with)
+	--> You now have to go to your router and port forward that port. Google your router for more information.
+	
+Delete a server from the list:
+	--> Select the server you would like to delete
+	--> Right click and click "Delete" or go to "File > Delete" to delete the entry
+
+Getting server information:
+	--> Go to "Server > about server"
+
+Hiding / Showing connection area:
+	--> Go to "View > Hide connection Area"
+
+Enabling / Disabling word wrap:
+	--> Go to "View > Wrap Text"
+	
+Help
+----------
+If you get the error "Connection Reset"
+	Causes:
+		--> Server has stopped / reset
+		--> Client sent an invalid character / object
+		--> Client's internet has disconnected or was interrupted
+		--> Server's internet has disconnected or was interrupted
+		--> Client forced quit the application
+	Fixes:
+		--> Quit the application and open it again
+		--> Check your internet connection
+		--> If the server is down, notify the admin
+		--> Check the IP/Host name and port number
+		--> Check you proxy settings
+		--> Reconnect to the server
+		
+If you get the error "Connection Refused"
+	Causes:
+		--> Server has stopped / reset
+		--> Entered IP/Host name is invalid
+		--> Entered port number is invalid
+		--> Server is not port forwarded
+		--> Client's / Server's ISP is blocking the specified port
+		
+	Fixes:
+		--> Notify the server admin
+		--> Quit the application and open it again
+		--> Check the port number and IP/Host nam
+		--> Check your proxy settings
+		--> Check your internet connection
+		
+If you get the error "Connection timed out"
+	Causes:
+		--> Server has stopped / reset
+		--> Reconnect to the server
+		--> Client's / Server's internet was interrupted
+	Fixes:
+		--> Reconnect to the server
+		--> Quit the application and open it again
+		--> Notify the server admin
+		--> Check your internet connection
+		--> Check your proxy settings
+		--> Check you internet connection
